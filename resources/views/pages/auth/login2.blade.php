@@ -201,7 +201,7 @@
                         <img class="img-fluid" src="/img/logo.png" alt=""
                             style="width: 200px;" />
                     </div>
-                    <h3 class="title-text text-center mt-xs-3">Login Pengguna</h3>
+                    <h3 class="title-text text-center mt-xs-3">ABSENSI PEMBELAJARAN SISWA</h3>
                     <p class="caption-text text-center">
                         Login menggunakan akun terdaftar
                     </p>
