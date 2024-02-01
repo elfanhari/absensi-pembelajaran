@@ -16,9 +16,18 @@
       <div class="col-sm-8">
         <select class="form-select @error('tingkat') is-invalid @enderror" name="tingkat" id="">
           <option value="" disabled selected>-- Pilih Tingkat Kelas --</option>
-          <option value="7" {{ '7' == old('tingkat') ? 'selected' : '' }}>7 (Tujuh)</option>
+          <option value="1" {{ '1' == old('tingkat') ? 'selected' : '' }}>1 (Satu)</option>
+          <option value="2" {{ '2' == old('tingkat') ? 'selected' : '' }}>2 (Dua)</option>
+          <option value="3" {{ '3' == old('tingkat') ? 'selected' : '' }}>3 (Tiga)</option>
+          <option value="4" {{ '4' == old('tingkat') ? 'selected' : '' }}>4 (Empat)</option>
+          <option value="5" {{ '5' == old('tingkat') ? 'selected' : '' }}>4 (Lima)</option>
+          <option value="6" {{ '6' == old('tingkat') ? 'selected' : '' }}>4 (Enam)</option>
+          <option value="7" {{ '7' == old('tingkat') ? 'selected' : '' }}>4 (Tujuh)</option>
           <option value="8" {{ '8' == old('tingkat') ? 'selected' : '' }}>8 (Delapan)</option>
           <option value="9" {{ '9' == old('tingkat') ? 'selected' : '' }}>9 (Sembilan)</option>
+          <option value="10" {{ '10' == old('tingkat') ? 'selected' : '' }}>10 (Sepuluh)</option>
+          <option value="11" {{ '11' == old('tingkat') ? 'selected' : '' }}>11 (Sebelas)</option>
+          <option value="12" {{ '12'== old('tingkat') ? 'selected' : '' }}>12 (Dua Belas)</option>
         </select>
         @error('tingkat')
         <span class="invalid-feedback mt-1">
