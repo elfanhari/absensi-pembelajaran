@@ -20,25 +20,25 @@ class DatabaseSeeder extends Seeder
 
         $this->call([
 
-          // UserSeeder::class,
-          // TapelSeeder::class,
-          // AdminSeeder::class,
-          // GuruSeeder::class,
-          // KelasSeeder::class,
-          // SiswaSeeder::class,
-          // SekolahSeeder::class,
-          // MapelSeeder::class,
-          // PembelajaranSeeder::class,
-          // PertemuanSeeder::class,
-          // NotifikasiSeeder::class,
-
-          UserSeeder2::class,
-          TapelSeeder2::class,
-          AdminSeeder2::class,
-          GuruSeeder2::class,
-          KelasSeeder2::class,
-          SiswaSeeder2::class,
+          UserSeeder::class,
+          TapelSeeder::class,
+          AdminSeeder::class,
+          GuruSeeder::class,
+          KelasSeeder::class,
+          SiswaSeeder::class,
           SekolahSeeder::class,
+          MapelSeeder::class,
+          PembelajaranSeeder::class,
+          PertemuanSeeder::class,
+          NotifikasiSeeder::class,
+
+          // UserSeeder2::class,
+          // TapelSeeder2::class,
+          // AdminSeeder2::class,
+          // GuruSeeder2::class,
+          // KelasSeeder2::class,
+          // SiswaSeeder2::class,
+          // SekolahSeeder::class,
 
         ]);
     }
