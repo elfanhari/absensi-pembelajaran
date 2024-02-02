@@ -249,7 +249,7 @@
                             </div>
                         </div>
                         <div class="d-flex justify-content-end" style="margin-top: 0.75rem">
-                            <a href="#" onclick="showModalDemo()" class="forgot-password">Lihat akun untuk login</a>
+                            <a href="#" onclick="showModalDemo()" class="forgot-password text-primary">Lihat akun untuk login</a>
                         </div>
                         <button class="btn btn-fill text-white d-block w-100" type="submit">
                             Login
@@ -306,7 +306,7 @@
 
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Baiklah</button>
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">OKE</button>
               </div>
             </div>
           </div>
@@ -340,8 +340,8 @@
         showModalDemo();
       });
       function showModalDemo(){
-        $('#modalDemo').modal('show');
-      }
+          $('#modalDemo').modal('show');
+        }
     </script>
 
 </body>
