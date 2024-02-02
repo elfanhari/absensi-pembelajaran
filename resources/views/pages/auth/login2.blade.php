@@ -249,7 +249,7 @@
                             </div>
                         </div>
                         <div class="d-flex justify-content-end" style="margin-top: 0.75rem">
-                            <a href="/lupapassword" class="forgot-password">Lupa password?</a>
+                            <a href="#" onclick="showModalDemo()" class="forgot-password">Lihat akun untuk login</a>
                         </div>
                         <button class="btn btn-fill text-white d-block w-100" type="submit">
                             Login
@@ -257,6 +257,59 @@
                     </form>
                 </div>
             </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="modalDemo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-md">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">PERHATIAN</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+              <p>Ini adalah link demo, data yang tampil adalah Data Dummy. Info lebih lanjut <a href="https://wa.me/6283112907503?text=Halo">Hubungi Pemilik</a></p>
+
+              <div class="table-responsive">
+                <div class="text-center fw-bold">AKUN LOGIN</div>
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">Role</th>
+                      <th scope="col">Username</th>
+                      <th scope="col">Password</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Admin</td>
+                      <td>erikadmin</td>
+                      <td>password</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Guru</td>
+                      <td>budiguru</td>
+                      <td>password</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>Siswa</td>
+                      <td>elfansiswa</td>
+                      <td>password</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Baiklah</button>
+              </div>
+            </div>
+          </div>
         </div>
 
         <!-- Password toggle -->
@@ -281,6 +334,16 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
     </script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        showModalDemo();
+      });
+      function showModalDemo(){
+        $('#modalDemo').modal('show');
+      }
+    </script>
+
 </body>
 
 </html>
